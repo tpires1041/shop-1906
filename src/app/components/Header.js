@@ -8,6 +8,7 @@ export default function Header() {
                     src={"https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"}
                     width={100}
                     height={30}
+                    alt={"imagem legal"}
                 />
             </div>
             <div>

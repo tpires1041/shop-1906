@@ -5,6 +5,7 @@ import Spinner from './Spinner';
 import Image from "next/image";
 import styles from "../styles/main.module.css";
 import ErrorFetch from "./ErrorFetch";
+import Link from "next/link";
 
 
 
@@ -108,6 +109,10 @@ export default function Main() {
             </p>
 
             <p>US${products.price}</p>
+
+            <Link href={"/product/" + products.id}>
+              <button>Ver Mais</button>
+            </Link>
 
             <p>{products.rating.count}</p>
           </div>
